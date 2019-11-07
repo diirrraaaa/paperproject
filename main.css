@@ -1,0 +1,9 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1535350356005-fd52b3b524fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=60);
+}
+#navbar{
+  display:inline-block;
+  background-color: rgb(198, 198, 198);
+  grid-column: 0;
+  grid-row: 25%;
+}
