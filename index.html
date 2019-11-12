@@ -1,39 +1,147 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>La Carta</title>
-  <h1>La Carta</h1>
-  <h3>The Italian Paper Manufacturer serving the US since 1842 </h3>
-  <div id="navbar">
-    <div class="">Home</div>
-    <div class="">Our Story</div>
-    <div class="">Products</div>
-    <div class="">Track your order</div>
+<div id= "top">
+    <div class="text">La Carta
+    <div class="text-2"> circa 1842
     </div>
-    <div id="gallery">
-      <img src="https://i.pinimg.com/564x/73/e5/ed/73e5ed6a64fc030562209e236fd06925.jpg"width="350px" height="350px">
-      <img src="https://i.pinimg.com/564x/47/00/97/470097836132132b9e9bd6cb8092c5cb.jpg"width="350px" height="350px">
-      <img src="https://i.pinimg.com/564x/62/93/ef/6293efc3b4ef9b9a08082e33746b7ce2.jpg"width="350px" height="350px">
-
-
     </div>
+  </div>
+<div id="navbar" class="mynavbar">
+  <div id="search">
+ <a class="block block-search">
+   <a class="block block-content">
+     <button onclick="myFunction(searchBox)">Search</button>
+     <form class="form minisearch sli_searchform" id="search_mini_form" method="GET" onsubmit="return SLI.searchSubmit(this,event);" accept-charset="utf-8">
+       <a class="field search"><label class="label sr-only" data-role="minisearch-label">
+         </label>
+     <a class="control">
+        <input id="search" type="text" name="w" value="" placeholder="Search by title, style etc." class="input-text sli_searchbox_textfield" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" onblur="if(this.value === '' ) { this.value = this.getAttribute('data-last-keyword'); }" data-provide="rac" onfocus="this.setAttribute('data-last-keyword', this.value); this.value = '';" aria-expanded="false" data-rac-loaded="true">
+        <input type="hidden" name="ts" value="custom">
+         <div id="search_autocomplete" class="search-autocomplete" style="display: none;">
+   </a>
+   </a>
+   </a>
+   </form>
+   </a>
+   </a>
+   </div>
+</div>
 
-  </head>
+    <ul>
+    <li class="home"><a>Home</a></li>
+        <li class="About Us"><a>About Us</a></li>
+        <li class="contact"><a>Contact</a></li>
+        <li class="track"><a>Track</a></li>
+    </ul>
+    </div>
+ <div id="gallery">
+<div class="container">
+  <img src="https://i.pinimg.com/564x/73/e5/ed/73e5ed6a64fc030562209e236fd06925.jpg" height="250px" width="250px" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text-image">Shop Envelopes</div>
+  </div>
+</div>
+<div class="container">
+  <img src="https://i.etsystatic.com/8543005/r/il/0aab86/1136748166/il_794xN.1136748166_6ooz.jpg"alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text-image">Shop Notepad</div>
+  </div>
+</div>
+<div class="container">
+  <img src="https://i.pinimg.com/564x/62/93/ef/6293efc3b4ef9b9a08082e33746b7ce2.jpg" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text-image">Shop Notebooks</div>
+  </div>
+</div>
+<div class="container">
+  <img src="https://images.unsplash.com/photo-1535837436558-f4a66525fef6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text-image">Shop Planners</div>
+  </div>
+</div>
+</div>
+<div class="pointer">
+                <p>Proper Preparation Prevents Poor Performance</p>
+            </div>
+            <div class="pointer">
+                <p>Una Preparazione Adeguata Previene Scarse Prestazioni</p>
+            </div>
+        </div>
+
+  <div id = "bio" class ="fambio">
+    <img src ="https://images.unsplash.com/photo-1542216765-7b2793f379a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" height="200" width="300">
+    <h2>Meet our Family</h2>
+    <p>In the early 1800s the Ferrari Fammily migrated to America in search of a new opportunity. It was then that La Carta was born and has been providing luxury office supplies since. </p>
+    </div>
+   <div id="gallery">
+<div class="container">
+  <img src="https://images.unsplash.com/photo-1565718253569-3156836e2ec0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" height="250px" width="250px" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text-image">Shop Thnak You Cards</div>
+  </div>
+</div>
+<div class="container">
+  <img src="https://i.pinimg.com/564x/4d/18/b9/4d18b9dd11fcf8ca9f09e0949bd926c2.jpg" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text-image">Shop Pens</div>
+  </div>
+</div>
+<div class="container">
+  <img src="https://i.pinimg.com/564x/4d/08/03/4d080342c8dd32a9ff3cbd0a5aedb66c.jpg"alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text-image">Shop Business Cards</div>
+  </div>
+</div>
+
+<div class="container">
+  <img src="https://images.unsplash.com/photo-1515054458823-948dc294418d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text-image">Shop Office Minis</div>
+  </div>
+</div>
+</div>
+</head>
   <body>
-    <script src ="main.js"></script>
-    </body>
+  <script >
+    function myFunction(searchBox) {
+  document.getElementById("search").innerHTML = "grazie";
+}
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("navbar");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+  </script>
+  </body>
     <footer>
       <div id= "footer">
-        <div class="">Home</div>
-        <div class="">Our Story</div>
-        <div class="">Products</div>
-        <div class="">Track your order</div>
+        <ul>
+        <li class="home"><a>Home</a></li>
+        <li class="About Us"><a>About Us</a></li>
+        <li class="contact"><a>Contact</a></li>
+        <li class="track"><a>Track</a></li>
+        </ul>
+        <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-pinterest"></a>
         </div>
-        <div id="social-icons">
-          <a href="http://www.facebook.com"><img src='http://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19753.png' /></a>
-          <a href="http://www.twitter.com"><img src='http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c53e.png' /></a>
-          <a href="http://www.youtube.com"><img src='http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png' /></a>
-          </div>
+
     </footer>
+
+
+
+
 </html>
